@@ -1,0 +1,55 @@
+/**
+ * Holds all the mixins
+ *
+ */
+
+@mixin responsive($media, $max: false) {
+    @if $media == xs {
+        @if $max == false {
+            @media only screen and (min-width: $screen-md-min) {
+                @content;
+            }
+        }
+        @else {
+            @media only screen and (max-width: $screen-md-min - 1) {
+                @content;
+            }
+        }
+    }
+    @else if $media == sm {
+        @if $max == false {
+            @media only screen and (min-width: $screen-sm-min) {
+                @content;
+            }
+        }
+        @else {
+            @media only screen and (max-width: $screen-sm-min - 1) {
+                @content;
+            }
+        }
+    }
+    @else if $media == md {
+        @if $max == false {
+            @media only screen and (min-width: $screen-md-min) {
+                @content;
+            }
+        }
+        @else {
+            @media only screen and (max-width: $screen-md-min - 1) {
+                @content;
+            }
+        }
+    }
+    @else if $media == lg {
+        @if $max == false {
+            @media only screen and (min-width: $screen-lg-min) {
+                @content;
+            }
+        }
+        @else {
+            @media only screen and (max-width: $screen-lg-min - 1) {
+                @content;
+            }
+        }
+    }
+}

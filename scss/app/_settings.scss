@@ -1,0 +1,42 @@
+/**
+* Holds all the variables used across the system
+*
+*/
+
+//Grid columns
+$grid-columns: 24;
+
+//Grid gultter width
+// $grid-gutter-width: 20px;
+// $grid-gutter-width-lg: 16px;
+
+//Different type of colors
+$white: #fff;
+$black: #000;
+
+
+//different paths
+$fonts-path: '../fonts/';
+$images-path: '../images/';
+
+//Bootstrap overriding
+$icon-font-path: $fonts-path;
+
+// $screen-sm-min: 480px;
+// $screen-md-min: 768px;
+$screen-lg-min: 1200px;
+
+// $grid-float-breakpoint: $screen-md-min;
+
+$container-sm: auto;
+$container-md: auto;
+$container-lg: 1080px;
+
+// Font
+$font-family-type1: 'PhalanxbyMarkRichardson-Bold', 'Helvetica', 'Arial', Sans-serif;
+
+
+//Body variables
+$body-bg: $white;
+$font-size-base: 12px;
+$line-height-base: 1.5;

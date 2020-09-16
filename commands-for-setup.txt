@@ -1,0 +1,23 @@
+/*get package.json*/
+npm init
+
+/*get bower.json*/
+bower init
+
+/*get bower_components and jquery and bootstarp in gitbase*/
+bower install bootstrap-sass jquery fontawesome jquery-validation
+
+/*get grunt*/
+npm install grunt --save-dev
+
+/*get grunt-contrib*/
+npm install grunt-contrib-uglify grunt-contrib-concat grunt-contrib-watch grunt-sass node-sass --save-dev
+
+npm install grunt --save-dev
+
+/*If grunt folder is available then run direct following commnds*/
+grunt
+grunt watch
+
+/*Now do code in .html and .scss files*/ 
+

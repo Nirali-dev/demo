@@ -1,0 +1,49 @@
+/**
+ * Holds all the base styles
+ *
+ */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: $font-family-type1;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+
+img, object, embed {
+    max-width: 100%;
+}
+
+a img {
+    border: none;
+}
+
+a {
+  background: transparent;
+  //color: $link-color;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  &:focus {
+    outline: none;
+  }
+  &:active, &:hover {
+    outline: 0;
+    //color: $link-hover-color;
+  }
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}

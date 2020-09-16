@@ -1,0 +1,23 @@
+/*
+ * Filename : style.scss
+ *
+ *
+ * Contains all the styles of main application
+ * via importing all the individual scss files
+ */
+
+@import "app/settings";
+@import "app/fonts";
+@import "bootstrap";
+@import "app/library/fontawesome/fontawesome";
+//@import "app/library/flexslider/flexslider";
+@import "app/mixins";
+@import "app/base";
+@import "app/elements";
+@import "app/input";
+@import "app/modal";
+@import "app/header";
+@import "app/navbar";
+@import "app/slider";
+@import "app/main";
+@import "app/footer";
